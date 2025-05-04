@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue={"glue"},
 		//tags="@smoketest",
 		monochrome=true,
-		plugin={"pretty","html:target/cucumber-reports"}
+		plugin={"pretty","json:target/cucumber.json"}
 		)
 
 public class TestRunner {
