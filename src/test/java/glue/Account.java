@@ -46,8 +46,10 @@ public class Account {
 //    	
         String actualTitle = driver.getTitle();
         System.out.println("Actual Title: " + actualTitle);
-        if(actualTitle.equalsIgnoreCase(expectedTitle);
+        if(actualTitle.equalsIgnoreCase(expectedTitle)
+           {
         System.out.println("Title test passed");
+        }
         //assertEquals(expectedTitle, actualTitle);
     }
 
